@@ -13,6 +13,7 @@ function recargarListaArticulos(datos){
     document.getElementById('listaArticulos').innerHTML=listaArticulosHTML;
 }
 
+//Tienes un evento que tiene lo mismo que esta función en el archivo eventos. Por qué lo repite si ya lo tienes aquí, deberias reutilizarlo
 function filtrarPorTexto(datosAFiltrar, texto){
     let datos= new Object();
     datos.productos =datosAFiltrar.productos.filter(item => item.nombre.toUpperCase().includes(texto.toUpperCase()))
