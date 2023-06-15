@@ -1,4 +1,5 @@
-
+//ese documento será para toda la SPA o para una variable con funcionalidad en particular??
+//Aquí ya no va el change sino el submit que lo alimenta un formulario de tipo get
 document.addEventListener("change", (e) => {
    if (e.target.id=="buscador"){
     let valorBuscado= e.target.value;
