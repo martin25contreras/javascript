@@ -1,5 +1,5 @@
 
-
+//PUEDES QUITAR LOS DEBUGGER QUE TIENES
 function renderPage(url,urldatos,templatedatos){
     debugger;
     const template= Handlebars.templates[url];
