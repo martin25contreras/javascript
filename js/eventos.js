@@ -1,4 +1,5 @@
-
+//ya no será change sino submit, debes cambiar el evento.
+// dentro de este evento debes tener el history.pushState
 document.addEventListener("change", (e) => {
    if (e.target.id=="buscador"){
     let valorBuscado= e.target.value;
